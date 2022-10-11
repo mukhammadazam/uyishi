@@ -403,6 +403,7 @@ text-decoration: none;
     padding: 0;
     list-style: none;
 
+
 }
 
 .inc-item{
@@ -457,4 +458,192 @@ line-height: 34px;
 
 
 color: #2F281E;
+}
+/* ABOUT SITE */
+.about-titli{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+
+color: #2F281E;
+
+}
+.about-list{
+    list-style: none;
+    margin: 0;
+}
+.about-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    
+    
+    color: #544837;
+}
+/* 
+CAT SITE */
+.cat-list{
+    display: flex;
+}
+
+.cat-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.cat{
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.cat-2{
+    margin-right: 50px;
+}
+.cat-titli{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+   margin: 0;
+    color: #544837;
+}
+.cat-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+margin: 0;
+color: #544837;
+}
+
+.cat-link{
+    margin-left: 15px;
+display:block;
+   
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+margin: 0;
+
+color: #1943EF;
+}
+
+/* CONTACT SITE */
+
+.contact-enner{
+    background: #FFEEE1;
+}
+.contact-list{
+    display: flex;
+}
+.contact-item{
+    list-style: none;
+
+}
+.contact-titli{
+    margin-bottom: 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+
+color: #2F281E;
+}
+
+.contact-text{
+width: 528px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #544837;
+}
+.con{
+    display: block;
+   
+}
+.contact-1{
+    display: block;
+   
+}
+
+.contact-link{
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 26px;
+/* identical to box height, or 104% */
+
+
+color: #544837;
+}
+
+/* FORM SITE */
+.form{
+ 
+  
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+background: #FFFFFF;
+border-radius: 5px;
+
+color: #C6C6C6;
+}
+.box-item{
+    margin-top: 140px;
+    margin-left: 35px;
+}
+.box{
+    display: block;
+ 
+/* identical to box height, or 162% */
+background: #FFFFFF;
+border-radius: 5px;
+
+
+
+    
+}
+
+input{
+    width: 260px;
+    margin-left: px;
+}
+
+textarea{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C6C6C6;
 }
